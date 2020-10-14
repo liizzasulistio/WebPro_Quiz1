@@ -1,0 +1,151 @@
+/*Rounded Edges*/
+.header, .button, .maincolumn, .sidebar, .image, .navigation input {
+    border-radius: 10px;
+}
+
+/*Header*/
+.header {
+    background-color: #D5728C;
+    background-size: cover;
+    height: 100px;
+    margin: 20px 20px 10px 20px;
+}
+
+/*Navigation Bar*/
+.navigation {
+    margin: 10px 20px 10px 20px;
+}
+
+.button {
+    background-color: #C9496C;
+    width: 159px;
+    justify-content: space-evenly;
+}
+
+.navigation a {
+    padding: 10px;
+    color: #FAEFF2;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.navigation a:hover {
+    background-color: #D5728C;
+}
+
+.navigation input[type=text] {
+    float: right;
+    width: 405px;
+    height: 45px;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    display: block;
+    border-style: none;
+    background-color: #FAEFF2;
+    color: #D5728C;
+}
+
+/*content wrapping*/
+#content-wrap {
+    padding-bottom: 20px;
+}
+.sidebar
+{
+    float: right;
+    margin: 10px 20px 20px 0px;
+    width: 25%;
+    padding: 25px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #380B0E;
+    background-color: #FAEFF2;
+}
+
+.maincolumn
+{
+    float: left;
+    margin: 10px 0px 10px 20px;
+    width: 60%;
+    padding: 25px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #380B0E;
+    background-color: #FAEFF2;
+}
+#column1 {
+    float: left;
+    width: 25%;
+}
+#column2 {
+    float: right;
+    width: 75%;
+}
+
+.avatar {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image, .avatar {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.image:hover {
+    opacity: 0.75;
+}
+
+.info {
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    color: #380B0E;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    text-decoration: bold;
+    font-size: 45px;
+    font-family: 'Cookie', cursive;
+    color: #FAEFF2;
+    margin: auto;
+}
+
+h2, h4 {
+    font-family: 'Handlee', cursive;
+}
+
+body {
+    background-color: #F1D0D9;
+    color: #380B0E;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #C9496C;
+}
+
+/*Footer to store Credit and Year*/
+.footer
+{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+}
