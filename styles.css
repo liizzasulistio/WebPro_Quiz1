@@ -183,7 +183,6 @@ a {
 #info {
     text-align: center;
     width: 200px;
-    border-radius: 5px;
     font-family: 'Handlee', cursive;
     font-size: 18px;
 }
@@ -199,10 +198,6 @@ a {
     font-family: 'Handlee', cursive;
 }
 
-.modal-img, #modal-info {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
 
 .close {
     position: absolute;
